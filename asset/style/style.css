@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.titre{
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-size: 45px;
+    background: linear-gradient(to bottom right, rgb(253, 253, 253), rgb(214, 208, 209));
+    
+  }
+
+.taille{
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;  
+  border: 3px solid rgb(0, 0, 0);
+}
+
+td{
+    table-layout: fixed;
+    text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rgb(0, 0, 0);   
+}
+
+tr{
+    table-layout: fixed;
+    text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  
+  border: 3px solid rgb(0, 0, 0);   
+}
+
+th{
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);  
+}
+
