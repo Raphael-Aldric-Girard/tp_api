@@ -1,20 +1,33 @@
-# Tp API
-## le projet consiste à utiliser les données d'un fichier de données au format JSON afin d'afficher dans un tableau des informations d'une personne.
-### Language utilisé
+# TP API
+## Le projet consiste à utiliser les données d’un fichier JSON afin d’afficher, dans un tableau HTML, les informations d’une personne.
+### Langages utilisés
 
 HTML
+
 CSS
-Java script
+
+JavaScript
+
 JSON
 
-### source des données
+### Source des données
 
 https://randomuser.me/api/?results=50
 
-### contenu
+### Contenu
 
-* Le code doit parcourir le tableau de données JSON et l'afficher dans un tableau html
+* Le code doit parcourir les données JSON et les afficher dans un tableau HTML.
 
-* les données du tableau sont username, genre, une concaténation du titre, du nom et du prénom, une phtot de la personne, nom du pays
+* Les données à afficher dans le tableau sont :
 
-* le tableau doit utilisé bootstrap
+* Username
+
+* Genre
+
+* Nom complet (concaténation du titre, du prénom et du nom)
+
+* Photo de la personne
+
+* Nom du pays
+
+* Le tableau doit utiliser Bootstrap pour le style.
